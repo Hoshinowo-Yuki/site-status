@@ -1,19 +1,20 @@
-import zh from "./locales/zh-CN.json";
+import zhHK from "./locales/zh-HK.json";
+import zhCN from "./locales/zh-CN.json";
+import kr from "./locales/ko-KR.json";
 import en from "./locales/en-US.json";
 import jp from "./locales/ja-JP.json";
-import kr from "./locales/ko-KR.json";
 
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: "zh-CN",
-  messages: { "zh-CN": zh, "ja-JP": jp, "ko-KR": kr, en },
-  fallbackLocale: "zh-CN",
-  // 语言偏好
+  locale: "zh-HK",
+  messages: { "zh-HK": zhHK, "zh-CN": zhCN, "ja-JP": jp, "ko-KR": kr, en },
+  fallbackLocale: "zh-HK",
+  // Preferences
   detectBrowserLanguage: {
     useCookie: true,
     cookieKey: "i18n_redirected",
     alwaysRedirect: true,
-    fallbackLocale: "zh-CN",
+    fallbackLocale: "zh-HK",
     redirectOn: "root",
   },
 }));
