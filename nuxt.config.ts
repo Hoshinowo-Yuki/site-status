@@ -81,7 +81,7 @@ export default defineNuxtConfig({
           : undefined,
       ],
       htmlAttrs: {
-        lang: "zh-CN",
+        lang: "zh-HK",
       },
     },
   },
