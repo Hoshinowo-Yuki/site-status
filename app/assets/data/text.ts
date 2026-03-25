@@ -24,6 +24,10 @@ export const siteType: { [key: number]: { tag: string; text?: string } } = {
 // 语言数据
 export const langData: SelectOption[] = [
   {
+    label: "繁體中文 (香港)",
+    value: "zh-HK",
+  },
+  {
     label: "简体中文",
     value: "zh-CN",
   },
