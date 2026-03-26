@@ -31,8 +31,8 @@
         {{ $t("footer.fiveMinutes") }}
       </n-p>
       <n-p depth="3">
-        Copyright &copy; 2020 - {{ new Date().getFullYear() }}
-        <n-text depth="3" @click="jumpLink(linkData.home)"> IMSYY & Hoshinowo-Yuki </n-text>
+        Copyright &copy; 2020 - {{ new Date().getFullYear() }} IMSYY &
+        <n-text depth="3" @click="jumpLink(linkData.home)"> Hoshino Yuki </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
