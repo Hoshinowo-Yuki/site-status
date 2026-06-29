@@ -32,7 +32,7 @@
       </n-p>
       <n-p depth="3">
         Copyright &copy; 2020 - {{ new Date().getFullYear() }} IMSYY &
-        <n-text depth="3" @click="jumpLink(linkData.home)"> 星野有希 </n-text>
+        <n-text depth="3" @click="jumpLink(linkData.home)"> 星野ゆき </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
